@@ -1,0 +1,35 @@
+**UNION ifadesi select ile elde ettiğimiz birden fazla sorguyu birleştirmemize yarar.
+
+Ex:
+(
+    select id,email from book
+)
+union 
+(
+    select id,title from book
+);
+
+**UNION ifadesi ile sonuç alabilmek için sütun sayıları eşit olmalıdır. Aşağıdaki örnekte
+sütun sayıları eşit girilmediğinden, sql kodu çalışmayacaktır.
+
+Ex:
+(
+    select id,email,first_name from book
+)
+union 
+(
+    select id,title from book
+);
+
+**UNION ifadesi ile yine sonuç alabilmek için girilen sütun değerlerinin veri tiplerinin
+aynı olması gerekir. Aşağıdaki kodda page_number serial bir veri tipi olmadığından, sql
+kodu çalışmayacaktır.
+
+Ex:
+(
+    select id,email from book
+)
+union 
+(
+    select id,page_number from book
+);

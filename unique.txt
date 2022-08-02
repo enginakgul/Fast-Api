@@ -1,0 +1,12 @@
+** Tablomuzda bulunan değerlerin birbirinden farklı olmasının istediğimiz zaman
+"UNIQUE" komutunu kullanırız.
+
+** Yazım Dili:
+ALTER TABLE table_name
+ADD UNIQUE(column_name);
+
+Ex:
+ALTER TABLE users
+ADD UNIQUE(email);
+
+Burda email değerlerinin aynı değerleri almamasını sağlamış oluyoruz.

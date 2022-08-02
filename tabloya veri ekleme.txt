@@ -1,0 +1,12 @@
+INSERT INTO <table_name>(VALUES)
+VALUES (VALUES);
+
+Ex:
+INSERT INTO users(username,email,full_name)
+VALUES (
+	'Engin',
+	'engin@engin.com',
+	'engin engin'
+);
+
+INSERT INTO komutu ile tablomuza veri ekleyebiliyoruz. 

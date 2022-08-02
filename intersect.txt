@@ -1,0 +1,12 @@
+** INTERSECT komutu ile iki tablo arasındaki kesişen değeri ekrana döndürmek için kullanılır.
+
+Ex:
+(
+    select id,email from book
+    
+)
+INTERSECT
+(
+    select id,title from book
+);
+

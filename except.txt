@@ -1,0 +1,11 @@
+** EXCEPT komutu ile birinci sorguda olan ancak ikincide sorguda olmayan verileri döndürür.
+
+Ex:
+Ex:
+(
+    select id,email from book
+)
+EXCEPT 
+(
+    select id,title from book
+);

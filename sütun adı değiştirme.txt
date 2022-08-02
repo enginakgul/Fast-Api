@@ -1,0 +1,9 @@
+** Sütun ismini güncelleme.
+
+** Yazım Dili:
+ALTER TABLE table_name
+RENAME COLUMN column_name IS column_name;
+
+Ex:
+ALTER TABLE users 
+RENAME COLUMN usename IS username

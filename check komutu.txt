@@ -1,0 +1,9 @@
+** CHECK komutu ile örneğin yaş sınırını 0'ın üstünde olmasını istersek kullanıyoruz.
+
+** Yazım Dili:
+ALTER TABLE table_name
+ADD CHECK(column_name);
+
+Ex:
+ALTER TABLE users
+ADD CHECK(age>0);

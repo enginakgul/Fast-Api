@@ -1,0 +1,10 @@
+** "author" tablosunda bulunan bazı değerler ekrana "null" olarak yazdırılırken 
+"book" tablosunda bulunan değerlerin tamamı ekrana yazdırılır.
+
+**Yazım Dili:
+SELECT column_name FROM table1
+RIGHT JOIN table2 ON table1.column_name=table2.column_name;
+
+Ex:
+SELECT author.first_name, author.last_name,book.title FROM author
+RIGHT JOIN book ON author.author_id = book.author_id;

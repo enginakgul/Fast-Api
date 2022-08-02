@@ -1,0 +1,11 @@
+** "author" tablosunda bulunan first_name ve last_name sütunlarının tamamını ekrana yazdırırken 
+"book" tablosunda bulunan title sütunundaki değerlerin bazıları "null" olarak döner.
+
+** Yazım Dili: 
+SELECT column_name FROM table1
+LEFT JOIN table2 ON table1.column_name = table2.column_name
+
+Ex:
+SELECT author.first_name,author.last_name,book.title FROM author
+LEFT JOIN book ON author.id = book.author_id;
+

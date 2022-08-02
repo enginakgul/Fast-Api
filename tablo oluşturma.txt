@@ -1,0 +1,13 @@
+
+Burda users adında CREATE komutu ile bir tablo oluşturuldu.Daha sonra users
+tablosunun sütunlarında bulunacak bilgileri yazdık. Bunlar; id,username,
+email ve full_name.
+
+CREATE TABLE users (
+	id SERIAL PRIMARY KEY,
+	username VARCHAR(50) NOT NULL,
+	email VARCHAR(50),
+	full_name 
+);
+
+

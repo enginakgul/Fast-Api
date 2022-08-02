@@ -1,0 +1,9 @@
+** Kitap isimleri alt sorguda yazan kitapların yazar isimlerini ve soyisimlerini ekrana yazdırır.
+
+
+select first_name,last_name from author
+where id = any
+(
+	select id from book
+	where title = 'Abe Lincoln in Illinois' or title = 'Saving Shiloh'
+);

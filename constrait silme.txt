@@ -1,0 +1,10 @@
+"book" isimli tabloda bulunan constrint'i siliyoruz.
+
+ALTER TABLE table_name
+DROP CONSTRAINT contraint_name;
+
+Ex:
+ALTER TABLE book
+DROP CONSTRAINT book_author_id_fkey;
+
+

@@ -1,0 +1,8 @@
+DROP TABLE komutu ile users adlı tablo silindi.
+
+** Yazım Dili:
+DROP TABLE <table_name>
+
+Ex:
+DROP TABLE users
+

@@ -1,0 +1,6 @@
+Veri tiplerini değiştirmek istediğimizde aşağıdaki kod satırını yazmamız gerekiyor.
+
+Ex:
+ALTER TABLE users
+ALTER COLUMN username
+SET NOT NULL;
